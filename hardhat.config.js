@@ -26,9 +26,8 @@ module.exports = {
       chainId: 1337
     },
     ropsten: {
-      url: "https://ropsten.infura.io/v3/117cc53e58944a7f9cb40cdf2c890a84",
-      // public key: 0xc06B657DAEF2527165fCddF88673905F6cC60721 (uz macbook Metamask account 1)
-      accounts: ['0x78fb8da928b54b3ccab0e3ef5daec44f20c1f943d1fd0cb1057f5bf0134581d6'] // private key
+      url: `https://ropsten.infura.io/v3/${'project-id'}`,
+      accounts: [`0x${'private-key-here'}`]
     }
   }
 };
